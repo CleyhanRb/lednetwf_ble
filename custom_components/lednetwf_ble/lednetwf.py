@@ -209,7 +209,7 @@ class LEDNETWFInstance:
 
                 ### ColorMode.RGB is getting deprecated, change !!!!!!!!!!!!
 
-                r,g,b = manu_data_data[18], manu_data_data[19], manu_data_data[20]
+                r,g,b = manu_data_data[19], manu_data_data[20], manu_data_data[21]
                 if self._fw_major == RING_LIGHT_MODEL:
                     self._rgb_color = (r,g,b)
                     hsv              = rgb_to_hsv(r,g,b)
